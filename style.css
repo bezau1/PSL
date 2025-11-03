@@ -1,0 +1,79 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  background: linear-gradient(to bottom, #111, #222);
+  color: white;
+  transition: background 0.5s, color 0.5s;
+}
+
+body.light {
+  background: linear-gradient(to bottom, #fafafa, #eaeaea);
+  color: #111;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background: rgba(255, 255, 255, 0.05);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+#settings-panel {
+  padding: 1rem 2rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.hidden {
+  display: none;
+}
+
+.search-bar {
+  display: flex;
+  gap: 0.5rem;
+  padding: 1rem 2rem;
+}
+
+input {
+  flex: 1;
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: none;
+}
+
+button {
+  background: #3a9cff;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+button:hover {
+  background: #1d7be0;
+}
+
+#app-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+  padding: 1rem 2rem;
+}
+
+.app-card {
+  background: rgba(255, 255, 255, 0.08);
+  padding: 1rem;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.app-card:hover {
+  transform: translateY(-5px);
+}
+
+.app-card button {
+  background: #00b851;
+}
