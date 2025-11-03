@@ -1,1 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Potato SideLoading (PSL)</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>📱 Potato SideLoading (PSL)</h1>
+    <button id="settings-btn">⚙️ Settings</button>
+  </header>
 
+  <div id="settings-panel" class="hidden">
+    <h2>Settings</h2>
+    <button id="theme-toggle">Toggle Dark/Light</button>
+  </div>
+
+  <div class="search-bar">
+    <input type="text" id="search" placeholder="Search apps...">
+    <button id="search-btn">🔍 Search</button>
+  </div>
+
+  <div id="app-list"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
