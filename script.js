@@ -3,6 +3,7 @@ const apps = [
   { name: "UTM", platform: "iOS", desc: "Run full virtual machines on your iPhone or iPad.", size: "95 MB", url: "https://utm.app" },
   { name: "Roblox", platform: "Android / iOS", desc: "Play and create worlds with millions of users.", size: "210 MB", url: "https://roblox.com" },
   { name: "Deltarune", platform: "iOS / Android", desc: "From the creator of Undertale — a new story in a dark world.", size: "250 MB", url: "https://deltarune.com" },
+  { name: "MENEMENTALE", platform: "iOS / Android", desc: "From not the creator of Undertale — a new story in a dark world.", size: "250 MB", url: "https://deltarune.com" },
   { name: "YTPlus", platform: "Android / iOS", desc: "Enhanced YouTube client with background play and more.", size: "75 MB", url: "https://youtube.com" },
 ];
 
